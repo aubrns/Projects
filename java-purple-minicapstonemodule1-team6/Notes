@@ -1,0 +1,17 @@
+
+1. Ask how to keep money displayed with only two decimal places
+2. Ask why our pennies are off - convert to BigDecimal
+3. Unit tests:
+
+VendingMachineCLI Tests
+openFile - takes a String file path and returns a File
+yes fileToMap - takes a csv file and returns a Map
+
+VendingMachine class
+yes add method for loading file that is called in the constructor to make it testable
+make sure properties are instantiated correctly when creating a new vending machine - final inventory should look a certain way
+getChange function: takes currentMoney and returns a string of change
+turnOn - accepts a filepath and returns a file with the saleslog
+
+yes Inventory item AND it's subclasses
+make sure properties are instantiated correctly when creating new instances of the class
